@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-let padding = {
-    margin: "2px"
+let style = {
+    padding:{ margin: "2px" },
 }
 
 class PortfolioModal extends Component{
@@ -26,10 +26,10 @@ class PortfolioModal extends Component{
                                         <p>{modal.longDescription}</p>
                                         <div className="row">
                                             <div className="col-12 text-center">
-                                                <a href={modal.link} className="btn btn-default" style={padding}>
+                                                <a href={modal.link} className="btn btn-default" style={style.padding}>
                                                     View on GitHub
                                                 </a>
-                                                <button type="button" className="btn btn-default" data-dismiss="modal" style={padding}><i className="fa fa-times"></i> Close</button>
+                                                <button type="button" className="btn btn-default" data-dismiss="modal" style={style.padding}><i className="fa fa-times"></i> Close</button>
                                             </div>
                                         </div>
                                     </div>
