@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import resume from './img/ftran_resume.pdf';
 
 class About extends Component{
     render(){
@@ -21,11 +20,6 @@ class About extends Component{
                         </div>
                         <div className="col-lg-4">
                             <p>Aside from programming, I enjoy gaming, biking and swimming in the summer and skating in the winter.</p>
-                            <div className="col-lg-12 text-right">
-                                <form target="_blank" action={resume} >
-                                    <button className="btn btn-primary">Resume</button>
-                                </form>
-                            </div>
                         </div>
                     </div>
                 </div>

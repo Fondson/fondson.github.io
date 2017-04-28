@@ -46,8 +46,7 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
+hr.star-light:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -172,6 +171,11 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
+}
+
+section#about {
+    background-size: cover;
+    background-image: url('./img/about_banner.png');
 }
 
 section h2 {
