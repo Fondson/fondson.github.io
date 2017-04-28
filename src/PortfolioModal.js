@@ -10,12 +10,12 @@ class PortfolioModal extends Component{
             return (
                 <div className="portfolio-modal modal fade" id={modal.modalRef} key={modal.modalRef} tabIndex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-content">
-                        <div className="close-modal" data-dismiss="modal">
+                        {/*<div className="close-modal" data-dismiss="modal">
                             <div className="lr">
                                 <div className="rl">
                                 </div>
                             </div>
-                        </div>
+                        </div>*/}
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-8 col-lg-offset-2">
