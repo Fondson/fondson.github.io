@@ -19,7 +19,7 @@ class PortfolioModal extends Component{
                                     <div className="modal-body">
                                         <h2>{modal.header}</h2>
                                         <hr className="star-primary"/>
-                                        {/*<img src="img/portfolio/smartphone.png" className="img-responsive img-centered" alt=""/>*/}
+                                        <img src={modal.mockup} className="img-responsive img-centered" alt=""/>
                                         <p>{modal.longDescription}</p>
                                         <div className="row">
                                             <div className="col-12 text-center">

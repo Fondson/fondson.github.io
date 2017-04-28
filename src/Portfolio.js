@@ -20,26 +20,6 @@ class Portfolio extends Component{
                     </div>
                     <div className="row">
                         {sections}
-                        {/*<div className="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal2" className="portfolio-link" data-toggle="modal">
-                                <div className="caption">
-                                    <div className="caption-content">
-                                        <i className="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/questionmark.png" className="img-responsive" alt=""/>
-                            </a>
-                        </div>
-                        <div className="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal3" className="portfolio-link" data-toggle="modal">
-                                <div className="caption">
-                                    <div className="caption-content">
-                                        <i className="fa fa-search-plus fa-3x"></i>
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/document.png" className="img-responsive" alt=""/>
-                            </a>
-                        </div>*/}
                     </div>
                 </div>
             </section>
