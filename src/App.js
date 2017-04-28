@@ -93,7 +93,7 @@ const portfolio = [
                 modalRef: "circleTheDotModal",
                 description: "Java implementation of the popular mobile game",
                 longDescription: "Circle The Dot is a game where the player tries to trap the computer by enclosing it with player dots.\
-                 This implementation uses the breathe-first search algorithm to aid the computer in finding the shortest path to escape the board. \
+                 This implementation uses the breadth-first search algorithm to aid the computer in finding the shortest path to escape the board. \
                  I was able to learn about graph traversals and their implementation using different data structures through this project.",
                 link: "https://github.com/Fondson/Circle-The-Dot",
                 mockup: CircleTheDotMockup
