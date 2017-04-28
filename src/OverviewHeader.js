@@ -9,7 +9,7 @@ const skills = [
     ".NET",
     "C/C++",
     "Python",
-    "HTML"
+    "HTML/CSS/JavaScript"
 ];
 
 class OverviewHeader extends Component{
