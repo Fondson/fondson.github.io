@@ -1,2 +1,1 @@
-# Fondson.github.io
-<a href="http://fondson.github.io">My personal website and online portfolio.</a>
+<a href="http://fondson.github.io/personal">My personal website and online portfolio.</a>
