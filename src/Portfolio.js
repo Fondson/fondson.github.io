@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
-import testImg from './img/portfolio/smartphone.png';
 import PortfolioSection from './PortfolioSection';
 
 

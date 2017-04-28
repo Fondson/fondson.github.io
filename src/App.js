@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 import Navigation from './Navigation';
 import OverviewHeader from './OverviewHeader';
 import About from './About';
@@ -11,6 +8,7 @@ import ContactFooter from './ContactFooter';
 import NoteLockerMockup from './img/mockups/note_locker.png';
 import FindMeMockup from './img/mockups/find_me.png';
 import FruityDuckMockup from './img/mockups/fruity_duck.png';
+import MadlibsMockup from './img/mockups/madlibs.png';
 
 const portfolio = [
     {
@@ -27,7 +25,7 @@ const portfolio = [
             {
                 header: "Find Me",
                 modalRef: "findMeModal",
-                description: "A game to test images against image recognition technology.",
+                description: "Game to test images against image recognition technology.",
                 longDescription: "Made with the visual recognition technology of the Clarifai API, Find Me is an Android app that allows us to test how intelligent the API really is. The app displays six different images and the tags associated with ONE of the images. Tap on the images to guess which one was passed to the API and see how accurate the tags described the image.",
                 link: "https://github.com/fondson/FindMe",
                 mockup: FindMeMockup
@@ -40,10 +38,18 @@ const portfolio = [
             {
                 header: "Fruity Duck",
                 modalRef: "fruityDuckModal",
-                description: "A 2D HTML5 endless fruit collecting game.",
+                description: "2D HTML5 endless fruit collecting game.",
                 longDescription: "Fruity Duck is a 2D HTML5 game created with the rendering engine pixi.js. I built this project to learn about game developement on the web, especially sprite rendering and interactions and game control adaptation on mobile and desktop devices.",
                 link: "https://github.com/Fondson/fruity-duck",
                 mockup: FruityDuckMockup
+            },
+            {
+                header: "Madlibs",
+                modalRef: "madlibsModal",
+                description: "Madlibs generator",
+                longDescription: "Created using the python Flask web framework, MadLibs is a web application to allows users to create libs using their own words. Provide the required number of nouns, verbs and adjectives and the words will be inserted into a random lib to create a unique one each time.",
+                link: "https://github.com/fondson/MadLibs",
+                mockup: MadlibsMockup
             }
         ]
     }

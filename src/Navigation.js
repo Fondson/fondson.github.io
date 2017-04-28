@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+import { Navbar, Button } from 'react-bootstrap';
 
 class Navigation extends Component{
     render(){

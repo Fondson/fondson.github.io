@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, Jumbotron, Button, ListGroup, ListGroupItem } from 'react-bootstrap';
+
+let padding = {
+    margin: "2px"
+}
 
 class PortfolioModal extends Component{
     render(){
@@ -42,9 +45,5 @@ class PortfolioModal extends Component{
         );
     }
 };
-
-let padding = {
-    margin: "2px"
-}
 
 export default PortfolioModal;

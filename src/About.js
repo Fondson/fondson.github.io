@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 import resume from './img/ftran_resume.pdf';
 
 class About extends Component{
