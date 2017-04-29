@@ -59,7 +59,7 @@ const portfolio = [
                 header: "Madlibs",
                 modalRef: "madlibsModal",
                 description: "Madlibs generator",
-                longDescription: "Created using the python Flask web framework, MadLibs is a web application that allows users to create libs using their own words.\
+                longDescription: "Created using the Python Flask web framework, MadLibs is a web application that allows users to create libs using their own words.\
                  Provide the required number of nouns, verbs and adjectives and the words will be inserted into a random lib to create a unique one each time.",
                 link: "https://github.com/fondson/MadLibs",
                 mockup: MadlibsMockup
@@ -68,7 +68,7 @@ const portfolio = [
                 header: "Foody",
                 modalRef: "foodyModal",
                 description: "Interactive cuisine and restaurant finder",
-                longDescription: "Made for ConUHacks 2, Foody is a python Flask web app that finds nearby restaurants that serve cuisine based on images you've selected.\
+                longDescription: "Made for ConUHacks 2, Foody is a Python web app that finds nearby restaurants that serve cuisine based on images you've selected.\
                  I was responsible for configuring the Clarifai API to extract relevant tags for various food images and developing the front-end of Foody.",
                 link: "https://github.com/dougouk/ConUHacks2",
                 mockup: FoodyMockup
