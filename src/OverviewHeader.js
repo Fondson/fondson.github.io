@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import profilePic from './img/profilepic.png';
+import utility from './utility';
 
 const skills = [
-    "Android",
+    "HTML/CSS/JavaScript",
+    "Native Android",
     "Java",
     "C#",
     "SQL Server",
     ".NET",
     "C/C++",
-    "Python",
-    "HTML/CSS/JavaScript"
+    "Python"
 ];
 
 class OverviewHeader extends Component{
@@ -23,23 +24,13 @@ class OverviewHeader extends Component{
                             <div className="intro-text">
                                 <span className="name">Fondson Tran</span>
                                 <hr className="star-light"/>
-                                <span className="skills">{this.parseSkills(skills)}</span>
+                                <span className="skills">{utility.listWithDash(skills)}</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </header> 
         )
-    }
-    parseSkills(skills){
-        let parsed = "";
-        for (let i = 0; i < skills.length; ++i){
-            if (i){
-                parsed += " - ";
-            }
-            parsed += skills[i];
-        }
-        return parsed;
     }
 }
 

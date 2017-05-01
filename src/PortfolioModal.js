@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import utility from './utility';
 
 let style = {
     padding:{ margin: "2px" },
@@ -17,21 +18,22 @@ class PortfolioModal extends Component{
                             </div>
                         </div>*/}
                         <div className="container">
-                            <div className="row">
-                                <div className="col-lg-8 col-lg-offset-2">
-                                    <div className="modal-body">
-                                        <h2>{modal.header}</h2>
+                            <div className="col-lg-8 col-lg-offset-2">
+                                <project-header>
+                                    <div className="intro-text">
+                                        <span className="name">{modal.header}</span>
                                         <hr className="star-primary"/>
-                                        <img src={modal.mockup} className="img-responsive img-centered" alt=""/>
-                                        <p>{modal.longDescription}</p>
-                                        <div className="row">
-                                            <div className="col-12 text-center">
-                                                <a href={modal.link} className="btn btn-default" style={style.padding}>
-                                                    View on GitHub
-                                                </a>
-                                                <button type="button" className="btn btn-default" data-dismiss="modal" style={style.padding}><i className="fa fa-times"></i> Close</button>
-                                            </div>
-                                        </div>
+                                        <span className="tech">{utility.listWithDash(modal.tech)}</span>
+                                    </div>
+                                </project-header> 
+                                <img src={modal.mockup} className="img-responsive img-centered" alt=""/>
+                                <p className="display-linebreak">{modal.longDescription}</p>
+                                <div className="row">
+                                    <div className="col-12 text-center">
+                                        <a href={modal.link} className="btn btn-default" style={style.padding}>
+                                            View on GitHub
+                                        </a>
+                                        <button type="button" className="btn btn-default" data-dismiss="modal" style={style.padding}><i className="fa fa-times"></i> Close</button>
                                     </div>
                                 </div>
                             </div>

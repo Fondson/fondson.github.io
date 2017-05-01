@@ -46,7 +46,8 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after {
+hr.star-light:after,
+hr.star-primary:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -74,6 +75,21 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+hr.line-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    border-color: #2c3e50;
+}
+
+hr.line-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -94,7 +110,8 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+header .intro-text .name,
+project-header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -104,6 +121,22 @@ header .intro-text .name {
 
 header .intro-text .skills {
     font-size: 1.25em;
+    font-weight: 300;
+}
+
+project-header {
+    text-align: center;
+    color: #000;
+    background: #fff;
+}
+
+project-header .intro-text {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+project-header .intro-text .tech {
+    font-size: 1.15em;
     font-weight: 300;
 }
 
@@ -119,6 +152,14 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
+    }
+
+    project-header .intro-text .name {
+        font-size: 3em;
+    }
+
+    project-header .intro-text .tech {
+        font-size: 1.2em;
     }
 }
 

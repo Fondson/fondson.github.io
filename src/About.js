@@ -8,7 +8,7 @@ class About extends Component{
                     <div className="row">
                         <div className="col-lg-12 text-center">
                             <h2>About</h2>
-                            <hr className="star-primary"/>
+                            <hr className="line-primary"/>
                         </div>
                     </div>
                     <div className="row">
