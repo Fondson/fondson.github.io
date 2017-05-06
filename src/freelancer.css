@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #306BAC;
 }
 
 h1,
@@ -63,16 +63,31 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #306BAC;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #141B41;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #141B41;
     background-color: #fff;
+}
+
+hr.line-light {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    border-color: #fff;
+}
+
+hr.line-light:after {
+    color: #fff;
+    background-color: #141B41;
 }
 
 hr.line-primary {
@@ -82,11 +97,11 @@ hr.line-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
-    border-color: #2c3e50;
+    border-color: #141B41;
 }
 
 hr.line-primary:after {
-    color: #2c3e50;
+    color: #141B41;
     background-color: #fff;
 }
 
@@ -97,7 +112,7 @@ hr.line-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #306BAC;
 }
 
 header .container {
@@ -113,7 +128,6 @@ header img {
 header .intro-text .name,
 project-header .intro-text .name {
     display: block;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -147,7 +161,7 @@ project-header .intro-text .tech {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3em;
     }
 
     header .intro-text .skills {
@@ -226,7 +240,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #306BAC;
 }
 
 section.success a,
@@ -235,7 +249,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #141B41;
 }
 
 @media(max-width:767px) {
@@ -265,7 +279,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #306BAC;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -319,7 +333,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #306BAC;
     background: #fff;
 }
 
@@ -372,7 +386,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #306BAC;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -389,7 +403,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #13315C;
 }
 
 footer .footer-col {
@@ -398,7 +412,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #141B41;
 }
 
 .btn-social {
@@ -444,7 +458,6 @@ footer .footer-below {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -483,7 +496,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #141B41;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -493,7 +506,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #141B41;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

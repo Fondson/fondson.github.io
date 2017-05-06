@@ -21,6 +21,7 @@ class PortfolioSection extends Component{
                 <div className="col-sm-12">
                     <div className="intro-text">
                         <h3>{this.props.title}</h3>
+                        <hr className="line-light"/>
                         <ListGroup>
                             {items}
                         </ListGroup>

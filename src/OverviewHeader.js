@@ -1,17 +1,5 @@
 import React, { Component } from 'react';
 import profilePic from './img/profilepic.png';
-import utility from './utility';
-
-const skills = [
-    "HTML/CSS/JavaScript",
-    "Native Android",
-    "Java",
-    "C#",
-    "SQL Server",
-    ".NET",
-    "C/C++",
-    "Python"
-];
 
 class OverviewHeader extends Component{
     render(){
@@ -22,9 +10,9 @@ class OverviewHeader extends Component{
                         <div className="col-lg-12">
                             <img className="img-responsive" src={profilePic} alt={""}/>
                             <div className="intro-text">
-                                <span className="name">Fondson Tran</span>
+                                <span className="name">Hi there.<br/>I'm Fondson Tran.</span>
                                 <hr className="star-light"/>
-                                <span className="skills">{utility.listWithDash(skills)}</span>
+                                <span className="skills">I like to code things using <span className="typedSkills"></span></span>
                             </div>
                         </div>
                     </div>
