@@ -19,12 +19,14 @@ class PortfolioSection extends Component{
         return (
             <header>
                 <div className="col-sm-12">
-                    <div className="intro-text">
-                        <h3>{this.props.title}</h3>
-                        <hr className="line-light"/>
-                        <ListGroup>
-                            {items}
-                        </ListGroup>
+                    <div className="project-title-container">
+                        <div className="intro-text">
+                            <h3>{this.props.title}</h3>
+                            <hr className="line-light"/>
+                            <ListGroup>
+                                {items}
+                            </ListGroup>
+                        </div>
                     </div>
                 </div>
             </header>

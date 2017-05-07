@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import utility from './utility';
+import newRepeatedTyped from './RepeatedTyped';
 
-let style = {
+const style = {
     padding:{ margin: "2px" },
 }
 
 class PortfolioModal extends Component{
     render(){
         const modals = this.props.data.map((modal)=>{
+            const techTypedClassName = modal.header.replace(/ /g, "").concat("TypedTech");
+            newRepeatedTyped(techTypedClassName, modal.tech.map((tech) => tech.concat(".")));
+
             return (
                 <div className="portfolio-modal modal fade" id={modal.modalRef} key={modal.modalRef} tabIndex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-content">
@@ -23,11 +26,11 @@ class PortfolioModal extends Component{
                                     <div className="intro-text">
                                         <span className="name">{modal.header}</span>
                                         <hr className="star-primary"/>
-                                        <span className="tech">{utility.listWithDash(modal.tech)}</span>
+                                        <span className="tech">Made using <span className={techTypedClassName}></span></span>
                                     </div>
                                 </project-header> 
                                 <img src={modal.mockup} className="img-responsive img-centered" alt=""/>
-                                <p className="display-linebreak">{modal.longDescription}</p>
+                                <p dangerouslySetInnerHTML={modal.longDescription}></p>
                                 <div className="row">
                                     <div className="col-12 text-center">
                                         <a href={modal.link} className="btn btn-default" style={style.padding}>

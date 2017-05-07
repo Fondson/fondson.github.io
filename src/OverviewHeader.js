@@ -1,8 +1,23 @@
 import React, { Component } from 'react';
 import profilePic from './img/profilepic.png';
+import newRepeatedTyped from './RepeatedTyped';
+    
+const skills = [
+    "HTML/CSS/JavaScript",
+    "Native Android",
+    "Java",
+    "C#",
+    "Python",
+    "SQL Server",
+    "C/C++",
+    "PHP"
+];
+
+const skillsTypedClassName = "typedSkills";
 
 class OverviewHeader extends Component{
     render(){
+        newRepeatedTyped(skillsTypedClassName, skills.map(skill => skill.concat('.')));
         return(
             <header>
                 <div className="container">
@@ -12,7 +27,7 @@ class OverviewHeader extends Component{
                             <div className="intro-text">
                                 <span className="name">Hi there.<br/>I'm Fondson Tran.</span>
                                 <hr className="star-light"/>
-                                <span className="skills">I like to code things using <span className="typedSkills"></span></span>
+                                <span className="skills">I like to code things using <span className={skillsTypedClassName}></span></span>
                             </div>
                         </div>
                     </div>

@@ -130,12 +130,17 @@ project-header .intro-text .name {
     display: block;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+.project-title-container{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 project-header {
@@ -150,7 +155,7 @@ project-header .intro-text {
 }
 
 project-header .intro-text .tech {
-    font-size: 1.15em;
+    font-size: 1.2em;
     font-weight: 300;
 }
 
@@ -166,6 +171,11 @@ project-header .intro-text .tech {
 
     header .intro-text .skills {
         font-size: 1.75em;
+    }
+
+    .project-title-container{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     project-header .intro-text .name {

@@ -5,7 +5,6 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './freelancer.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-require('./TypedComponents');
 
 ReactDOM.render(
   <App />,
