@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import newRepeatedTyped from './RepeatedTyped';
+import utility from './utility';
 
 const style = {
     padding:{ margin: "2px" },
@@ -8,9 +9,6 @@ const style = {
 class PortfolioModal extends Component{
     render(){
         const modals = this.props.data.map((modal)=>{
-            const techTypedClassName = modal.header.replace(/ /g, "").concat("TypedTech");
-            newRepeatedTyped(techTypedClassName, modal.tech.map((tech) => tech.concat(".")));
-
             return (
                 <div className="portfolio-modal modal fade" id={modal.modalRef} key={modal.modalRef} tabIndex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-content">
@@ -26,7 +24,7 @@ class PortfolioModal extends Component{
                                     <div className="intro-text">
                                         <span className="name">{modal.header}</span>
                                         <hr className="star-primary"/>
-                                        <span className="tech">Made using <span className={techTypedClassName}></span></span>
+                                        <span className="tech">{utility.listWithDash(modal.tech)}</span>
                                     </div>
                                 </project-header> 
                                 <img src={modal.mockup} className="img-responsive img-centered" alt=""/>
