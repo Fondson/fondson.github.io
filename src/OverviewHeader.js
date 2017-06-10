@@ -8,7 +8,7 @@ const skills = [
     "Java",
     "C#",
     "Python",
-    "SQL Server",
+    "SQL",
     "C/C++",
     "PHP"
 ];

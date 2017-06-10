@@ -6,11 +6,28 @@ import MadlibsMockup from './img/mockups/madlibs.png';
 import FoodyMockup from './img/mockups/foody.png';
 import ConnectFourMockup from './img/mockups/connect_four.png';
 import CircleTheDotMockup from './img/mockups/circle_the_dot.png';
+import RelatedAnimeMockup from './img/mockups/related_anime.png';
 
 const portfolioInfo = [
     {
         title: "Web",
         data:[
+            {
+                header: "Related Anime",
+                modalRef: "relatedAnimeModal",
+                tech: [
+                    "NodeJS", "ExpressJS", "React", "CheerioJS (jQuery for the server)", "HTML/CSS/JavaScript"
+                ],
+                description: "Discover novels, mangas, and other animes that are related to an anime series",
+                longDescription: {
+                    __html: "Related Anime is a web scraping website that visually displays media related to an anime series. \
+                    I implemented an Express server API thats scraps relevant information from <a href='https://myanimelist.net/'>MyAnimeList</a> \
+                    while sending updates using HTML5 server-sent events to display the results. Page routing is handled on the client-side using <b>react-router</b>."
+                },
+                github: "https://github.com/Fondson/related-anime",
+                link: "https://related-anime.herokuapp.com",
+                mockup: RelatedAnimeMockup
+            },
             {
                 header: "Fruity Duck",
                 modalRef: "fruityDuckModal",
@@ -24,7 +41,8 @@ const portfolioInfo = [
                     especially sprite rendering and interactions and game control adaptation on mobile and desktop devices. \
                     Additionally, I learned about progressive web app functionalities, giving Fruity Duck an app-like feel on mobile devices."
                 },
-                link: "https://github.com/Fondson/fruity-duck",
+                github: "https://github.com/Fondson/fruity-duck",
+                link: "https://fondson.github.io/fruity-duck/",
                 mockup: FruityDuckMockup
             },
             {
@@ -38,7 +56,7 @@ const portfolioInfo = [
                     __html: "MadLibs is a web application that allows users to create libs using their own words. \
                     Provide the required number of nouns, verbs and adjectives and the words will be inserted into a random lib to create a unique one each time."
                 },
-                link: "https://github.com/fondson/MadLibs",
+                github: "https://github.com/fondson/MadLibs",
                 mockup: MadlibsMockup
             },
             {
@@ -52,7 +70,7 @@ const portfolioInfo = [
                     __html: "Made for ConUHacks 2, Foody is a web app that finds nearby restaurants that serve cuisine based on images you've selected.\
                     I was responsible for configuring the Clarifai API to extract relevant tags for various food images and developing the front-end of Foody."
                 },
-                link: "https://github.com/dougouk/ConUHacks2",
+                github: "https://github.com/dougouk/ConUHacks2",
                 mockup: FoodyMockup
             }
         ]
@@ -73,7 +91,7 @@ const portfolioInfo = [
                     Enjoy customization options such as changing wallpapers and having your item cards adapt colours automatically. \
                     Add items to your list, set scheduled notifications and be reminded everytime you open your phone."
                 },
-                link: "http://github.com/fondson/note-locker",
+                github: "http://github.com/fondson/note-locker",
                 mockup: NoteLockerMockup
             },
             {
@@ -89,7 +107,7 @@ const portfolioInfo = [
                     The app displays six different images and the tags associated with ONE of the images. \
                     Tap on the images to guess which one was passed to the API and see how accurate the tags described the image."
                 },
-                link: "https://github.com/fondson/FindMe",
+                github: "https://github.com/fondson/FindMe",
                 mockup: FindMeMockup
             }
         ]
@@ -109,7 +127,7 @@ const portfolioInfo = [
                     I created this app to learn about AI algorithms, specifically the <b>minimax algorithm</b> which the AI is powered on. \
                     Through optimizations such as <b>alpha-beta pruning</b> and Connect Four based utilities, the AI is able to play out game scenarios and pick out its best move."
                 },
-                link: "https://github.com/Fondson/Connect-4",
+                github: "https://github.com/Fondson/Connect-4",
                 mockup: ConnectFourMockup
             },
             {
@@ -124,7 +142,7 @@ const portfolioInfo = [
                     This implementation uses the <b>breadth-first search algorithm</b> to aid the computer in finding the shortest path to escape the board. \
                     I was able to learn about graph traversals and their implementation using different data structures through this project."
                 },
-                link: "https://github.com/Fondson/Circle-The-Dot",
+                github: "https://github.com/Fondson/Circle-The-Dot",
                 mockup: CircleTheDotMockup
             }
         ]

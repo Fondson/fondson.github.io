@@ -22,7 +22,7 @@ class PortfolioSection extends Component{
                     <div className="project-title-container">
                         <div className="intro-text">
                             <h3>{this.props.title}</h3>
-                            <hr className="line-light"/>
+                            <hr className="line-light-portfolio"/>
                             <ListGroup>
                                 {items}
                             </ListGroup>

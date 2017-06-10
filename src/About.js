@@ -13,7 +13,7 @@ class About extends Component{
                     </div>
                     <div className="row">
                         <div className="col-lg-4 ">
-                            <p>I am a second year student in the University of Waterloo pursuing a Bachelor of Computer Science. </p>
+                            <p>I am a third year student in the University of Waterloo pursuing a Bachelor of Computer Science. </p>
                         </div>
                         <div className="col-lg-4">
                             <p>My grade 10 Computer Science course using VB was my first exposure to programming and I loved it. This kickstarted my academic studies in CS. </p>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import newRepeatedTyped from './RepeatedTyped';
 import utility from './utility';
 
 const style = {
@@ -9,6 +8,12 @@ const style = {
 class PortfolioModal extends Component{
     render(){
         const modals = this.props.data.map((modal)=>{
+            const visitSite = modal.link ? 
+            (
+                <a href={modal.link} className="btn btn-default" style={style.padding}>
+                    Visit site!
+                </a>  
+            ) : (<div/>);
             return (
                 <div className="portfolio-modal modal fade" id={modal.modalRef} key={modal.modalRef} tabIndex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-content">
@@ -31,7 +36,8 @@ class PortfolioModal extends Component{
                                 <p dangerouslySetInnerHTML={modal.longDescription}></p>
                                 <div className="row">
                                     <div className="col-12 text-center">
-                                        <a href={modal.link} className="btn btn-default" style={style.padding}>
+                                        {visitSite}
+                                        <a href={modal.github} className="btn btn-default" style={style.padding}>
                                             View on GitHub
                                         </a>
                                         <button type="button" className="btn btn-default" data-dismiss="modal" style={style.padding}><i className="fa fa-times"></i> Close</button>
