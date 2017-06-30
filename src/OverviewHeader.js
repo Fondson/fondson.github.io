@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import profilePic from './img/profilepic.png';
+import './OverviewHeader.css';
+import profilePic from './img/profilepic.jpg';
 import newRepeatedTyped from './RepeatedTyped';
     
 const skills = [
@@ -23,7 +24,7 @@ class OverviewHeader extends Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <img className="img-responsive" src={profilePic} alt={""}/>
+                            <img className="img-responsive profile-pic" src={profilePic} alt={""}/>
                             <div className="intro-text">
                                 <span className="name">Hi there.<br/>I'm Fondson Tran.</span>
                                 <hr className="star-light"/>
