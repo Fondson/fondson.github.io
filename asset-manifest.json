@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.6247a01a.css",
   "main.css.map": "static/css/main.6247a01a.css.map",
-  "main.js": "static/js/main.64096799.js",
-  "main.js.map": "static/js/main.64096799.js.map",
+  "main.js": "static/js/main.ef37de52.js",
+  "main.js.map": "static/js/main.ef37de52.js.map",
   "static/media/about_banner.png": "static/media/about_banner.70b9e062.png",
   "static/media/circle_the_dot.png": "static/media/circle_the_dot.9ab71b67.png",
   "static/media/connect_four.png": "static/media/connect_four.6212c21e.png",
@@ -17,6 +17,6 @@
   "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
   "static/media/madlibs.png": "static/media/madlibs.438af401.png",
   "static/media/note_locker.png": "static/media/note_locker.ffd597ef.png",
-  "static/media/profilepic.jpg": "static/media/profilepic.486482ce.jpg",
+  "static/media/profilepic.jpg": "static/media/profilepic.a449370c.jpg",
   "static/media/related_anime.png": "static/media/related_anime.abf6b65a.png"
 }
