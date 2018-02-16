@@ -32,7 +32,7 @@ class ContactFooter extends Component{
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    &copy; Fondson Tran 2017
+                                    &copy; Fondson Tran 2018
                                 </div>
                             </div>
                         </div>

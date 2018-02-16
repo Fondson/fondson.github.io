@@ -16,13 +16,14 @@ const portfolioInfo = [
                 header: "Related Anime",
                 modalRef: "relatedAnimeModal",
                 tech: [
-                    "NodeJS", "ExpressJS", "React", "CheerioJS (jQuery for the server)", "HTML/CSS/JavaScript"
+                    "Neo4j", "NodeJS", "ExpressJS", "React", "CheerioJS", "HTML/CSS/JavaScript"
                 ],
                 description: "Discover novels, mangas, and other animes that are related to an anime series",
                 longDescription: {
                     __html: "Related Anime is a web scraping website that visually displays media related to an anime series. \
                     I implemented an Express server API thats scraps relevant information from <a href='https://myanimelist.net/'>MyAnimeList</a> \
-                    while sending updates using HTML5 server-sent events to display the results. Page routing is handled on the client-side using <b>react-router</b>."
+                    while sending updates using HTML5 server-sent events to display the results. Selected results are stored in a \
+                    <b>Neo4j graph database</b>. Page routing is handled on the client-side using <b>react-router</b>."
                 },
                 github: "https://github.com/Fondson/related-anime",
                 link: "https://related-anime.herokuapp.com",
