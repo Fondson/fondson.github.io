@@ -13,13 +13,13 @@ class About extends Component{
                     </div>
                     <div className="row">
                         <div className="col-lg-4 ">
-                            <p>I am a third year student in the University of Waterloo pursuing a Bachelor of Computer Science. </p>
+                            <p>I am a third year student at the University of Waterloo pursuing a Bachelor of Computer Science. </p>
                         </div>
                         <div className="col-lg-4">
-                            <p>My grade 10 Computer Science course using VB was my first exposure to programming and I loved it. This kickstarted my academic studies in CS. </p>
+                            <p>My passion lies in building connected products. For this reason, I love working on integrations and with APIs.</p>
                         </div>
                         <div className="col-lg-4">
-                            <p>Aside from programming, I enjoy gaming, biking and swimming in the summer and skating in the winter.</p>
+                            <p>Aside from programming, I enjoy hiking, gamimg and watching anime.</p>
                         </div>
                     </div>
                 </div>
