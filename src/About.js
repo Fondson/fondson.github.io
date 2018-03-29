@@ -19,7 +19,7 @@ class About extends Component{
                             <p>My passion lies in building connected products. For this reason, I love working on integrations and with APIs.</p>
                         </div>
                         <div className="col-lg-4">
-                            <p>Aside from programming, I enjoy hiking, gamimg and watching anime.</p>
+                            <p>Aside from programming, I enjoy hiking, gaming and watching anime!</p>
                         </div>
                     </div>
                 </div>
