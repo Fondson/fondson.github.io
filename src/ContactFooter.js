@@ -47,10 +47,10 @@ class ContactFooter extends Component{
                                             <a href="http://github.com/fondson" className="btn-social btn-outline"><i className="fa fa-fw fa-github"></i></a>
                                         </li>
                                         <li>
-                                            <a onMouseLeave={this.resetEmailCopied} onClick={this.copyEmail} className="btn-social btn-outline" key={emailCopied ? 'emailCopied' : 'emailNotCopied'} data-tip={emailCopied ? 'Copied email' : 'Copy email'}>
+                                            <a onMouseLeave={this.resetEmailCopied} onClick={this.copyEmail} className="btn-social btn-outline" data-tip>
                                                 <i className="fa fa-fw fa-envelope"></i>
-                                                <ReactTooltip type="info" effect="solid"/>
                                             </a>
+                                            <ReactTooltip place="right" type="info" effect="solid" getContent={() => emailCopied ? 'Copied email address to clipboard' : 'Copy email address'} event='mouseenter click' eventOff='mouseleave' isCapture={true}/>
                                         </li>
                                     </ul>
                                 </div>
