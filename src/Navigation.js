@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Navbar, Button } from 'react-bootstrap';
-import resume from './img/ftran_resume.pdf';
 
 class Navigation extends Component{
     render(){
@@ -32,7 +31,7 @@ class Navigation extends Component{
                                 <a href="#contact">Contact</a>
                             </li>
                             <li className="page-scroll">
-                                <a href={resume}>Resume</a>
+                                <a href="https://drive.google.com/viewer?url=https://raw.githubusercontent.com/Fondson/resume/master/ftran_resume.pdf">Resume</a>
                             </li>
                         </ul>
                     </div>
