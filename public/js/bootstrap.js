@@ -29,7 +29,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -91,7 +90,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -181,7 +179,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -307,7 +304,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -562,7 +558,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -769,7 +764,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -934,7 +928,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -1273,7 +1266,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -1834,7 +1826,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -1942,7 +1933,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -2110,7 +2100,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
@@ -2257,7 +2246,6 @@ if (typeof jQuery === 'undefined') {
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
-
 ;+(function ($) {
   'use strict'
 
