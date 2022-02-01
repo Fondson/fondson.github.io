@@ -4,7 +4,7 @@ import { Navbar, Button } from 'react-bootstrap';
 class Navigation extends Component{
     render(){
         return(
-            <Navbar className={'navbar navbar-default navbar-fixed-top'}>
+            <Navbar className='navbar-fixed-top'>
                 <div className="container">
                     <div className="navbar-header page-scroll">
                         <Button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
