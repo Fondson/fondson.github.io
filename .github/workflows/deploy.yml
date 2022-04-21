@@ -2,7 +2,7 @@ name: Deploy
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   deploy:
@@ -27,6 +27,6 @@ jobs:
           echo fondsontran.com > build/CNAME
           # Based on https://github.com/tschaub/gh-pages/issues/345
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npx gh-pages -d build -b master -u "github-actions-bot <support+actions@github.com>"
+          npx gh-pages -d build -b gh-pages -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
