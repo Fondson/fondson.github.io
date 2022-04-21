@@ -281,6 +281,7 @@ project-header .intro-text .tech {
   border-width: 2px;
   padding: 10px 15px;
   font-size: 15px;
+  transition: all 0.3s;
 }
 
 .btn-default {
