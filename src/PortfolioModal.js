@@ -12,9 +12,7 @@ class PortfolioModal extends Component {
         <a href={modal.link} className="btn btn-default" style={style.padding}>
           Visit site!
         </a>
-      ) : (
-        <div />
-      )
+      ) : null
       return (
         <div
           className="portfolio-modal modal fade"
