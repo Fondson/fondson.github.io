@@ -25,7 +25,7 @@ jobs:
           # Set CI to empty or else warnings will be treated as errors
           CI= yarn build
           echo fondsontran.com > build/CNAME
-          echo "\n" > build/.nojekyll
+          echo "." > build/.nojekyll
           # Based on https://github.com/tschaub/gh-pages/issues/345
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
