@@ -15,15 +15,22 @@ const portfolioInfo = [
       {
         header: 'Related Anime',
         modalRef: 'relatedAnimeModal',
-        tech: ['Redis', 'NodeJS', 'ExpressJS', 'React', 'CheerioJS', 'HTML/CSS/JavaScript'],
+        tech: [
+          'Redis',
+          'NodeJS',
+          'ExpressJS',
+          'React',
+          'CheerioJS',
+          'HTML/CSS/JavaScript',
+          'DynamoDB',
+        ],
         description:
           'Discover novels, mangas, and other animes that are related to an anime series',
         longDescription: {
           __html:
             "Related Anime is a web scraping website that visually displays media related to an anime series. \
                     I implemented an <b>Express</b> server API thats scraps relevant information from <a href='https://myanimelist.net/'>MyAnimeList</a> \
-                    while sending updates using HTML5 server-sent events to display the results. Recent searches are cached using <b>Redis</b>. \
-                    Page routing is handled on the client-side using <b>react-router</b>.",
+                    while sending updates using HTML5 server-sent events to display the results. Recent searches are cached using <b>Redis</b> and <b>DynamoDB</b>.",
         },
         github: 'https://github.com/Fondson/relatedanime',
         link: 'http://relatedanime.com',
